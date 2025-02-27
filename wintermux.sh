@@ -24,8 +24,8 @@ if [[ $input == Yes || $input == yes || $input == y || $input == Y ]]; then
    clear
    read -p "Select Size Of RAM In MB Ex 1GB = 1024 : " ram
    echo "[+] Server Is Running...."
-   echo -e "Your Server IP is:\e[1;91m 127.0.0.1:2"
-   qemu-system-aarch64 -m $ram -cdrom storage/downloads/WIN10TP.iso -vnc 127.0.0.1:2
+   echo -e "Your Server IP is:\e[1;91m 127.0.0.1:5900"
+   qemu-system-aarch64 -m $ram -cdrom storage/downloads/WIN10TP.iso -vnc 127.0.0.1:5900
 
 elif [[ $input == No || $input == no || $input == n || $input == N ]]; then
 echo -e "\e[1;91m1. First Download WIN10TP.iso file from this Link: \e[1;92mhttps://www.mediafire.com/file/gleswwush7q7woh/WIN10TP.iso/file" #pastedownload link here
