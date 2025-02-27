@@ -28,7 +28,7 @@ if [[ $input == Yes || $input == yes || $input == y || $input == Y ]]; then
    qemu-system-x86_64 -m $ram -cdrom storage/downloads/WIN10TP.iso -vnc 127.0.0.1:2
 
 elif [[ $input == No || $input == no || $input == n || $input == N ]]; then
-echo -e "\e[1;91m1. First Download WIN10TP.iso file from this Link: \e[1;92mhttp://bit.ly/wintermux" #pastedownload link here
+echo -e "\e[1;91m1. First Download WIN10TP.iso file from this Link: \e[1;92mhttps://www.mediafire.com/file/gleswwush7q7woh/WIN10TP.iso/file" #pastedownload link here
 echo "2. Put WIN10TP.iso file into download folder."
 exit 2
 else
